@@ -1,0 +1,32 @@
+# Credenciais e configuracoes locais
+/credenciais.json
+/config.json
+.env
+.env.*
+!.env.example
+
+# Dados reais, anexos e historico de envios
+/empresas/
+/pendencias/
+/enviados/
+/erros/
+/logs/
+*.log
+
+# Arquivos temporarios de planilhas
+~$*
+
+# Cache e ambientes virtuais Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Arquivos locais do sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
